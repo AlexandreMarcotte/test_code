@@ -2,12 +2,12 @@
 import numpy as np
 import pyqtgraph as pg
 from pyqtgraph.Qt import QtGui, QtCore
-import threading
+import my_threading
 # from Queue import Queue
 import time
 from random import randint
 
-class MyApp(threading.Thread):
+class MyApp(my_threading.Thread):
     def __init__(self):
         super(MyApp, self).__init__()
         self.qapp = pg.mkQApp()
@@ -22,7 +22,7 @@ class MyApp(threading.Thread):
             self.qapp.processEvents()
 
 
-class CreateData(threading.Thread):
+class CreateData(my_threading.Thread):
     def __init__(self):
         super(CreateData, self).__init__()
 
@@ -30,7 +30,7 @@ class CreateData(threading.Thread):
         while 1:
             time.sleep(0.1)
             y[randint(0, 100-1)] = randint(-1, 1)
-# class PlotData(threading.Thread):
+# class PlotData(my_threading.Thread):
 #     """
 #     Ploting data with pyqtgraph under a class format
 #     """
@@ -84,7 +84,7 @@ class CreateData(threading.Thread):
 #         QtGui.QApplication.instance().exec_()
 #
 #
-# class PrintShit(threading.Thread):
+# class PrintShit(my_threading.Thread):
 #     def __init__(self):
 #         super(PrintShit, self).__init__()
 #

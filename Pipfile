@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pyqtgraph = "*"
+opensimplex = "*"
+"pyqt5" = "*"
+scipy = "*"
+pyopengl = "*"
+"box2d" = "*"
+matplotlib = "*"
+mne = "*"
+mayavi = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"

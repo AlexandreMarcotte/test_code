@@ -68,7 +68,7 @@ def record_to_CSV_experiment_data(
 # See: https://stackoverflow.com/questions/25735153/plotting-a-fast-fourier-transform-in-python
 import matplotlib.pyplot as plt
 import scipy.fftpack
-import threading
+import my_threading
 # Graph the data
 from pyqtgraph.Qt import QtGui, QtCore
 import numpy as np

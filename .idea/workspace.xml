@@ -1,62 +1,616 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1311e35-f4c5-4675-852d-a24ee1d2f4de" name="Default" comment="" />
+    <list default="true" id="c1311e35-f4c5-4675-852d-a24ee1d2f4de" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D/blender/first_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D/global_variable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D/open_gl/3D scatter plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D/open_gl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D/open_gl/change_color_at_every_pts_3D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D/open_gl/many_plot_3D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D/open_gl/mesh_terrain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D/open_gl/objloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D/open_gl/open_blender_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D/open_gl/selectable_3d_scatter_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyVtk/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyVtk/vtk_visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TIMER_do_every_n_Sec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box2D/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box2D/first_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create_an_obj_from_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter/bandpass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter/live_filtering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/free_cad/motor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/free_cad/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/snake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geographic_map/map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heat_map_real_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/live_coding/get_live_input_from_keyboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/live_coding/guitar_hero.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/live_coding/text_item_on_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/live_coding/text_item_on_scrolling_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_learning/handson_machine_learning_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_learning/svm/svm_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/fill_between.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mne/decimating_scalp surface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mne/ploting_sensors_on_scalp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelisation/lin_non_lin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mon_test_fft.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mon_test_write_csv_to_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_numpy/where.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_pygame/20-Run_pygame_inside_pyqtwin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_pygame/player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_pygame/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_threading/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_threading/pipe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numpy_concatenation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openbci/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openbci/openbci_v3_interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openbci/stream_data_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openbci_read_data_from_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/17-combining_QMainWindow_and_QWidget_classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/18_tab_widget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/22_connect_qpushbutton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/26horizontal_line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/QFileDialogbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/QMainWindow_with_tabs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/QSlider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/Q_splitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/basic_dock_widget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/basic_main_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/checked_menu_bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/collapsable_dock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/collapsable_dock_w_tool_section.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/collapsable_section_widget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/color_button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/create_many_splitter_one_after_the_other.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/dock_in_tab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/dock_widgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/draw_rectangles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/embeding_vtk_into_pyqt5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/fmri_3D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/output_console_in_QTextEdit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/output_console_in_QTextEdit2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/progress_bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/qsplitter_splitting_layouts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/rotate_QPushButton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/save_and_open_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/scrolling_area.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/slider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/tab_widget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/tool_box.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/toolbox2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/tree_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/updating_img_nparray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5_ex/video_player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/15-Basic_scrolling_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/16_BASIC_combining_pyqtgraph_and_pyqt5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/19_pyqtgraph_dockwidgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/21-Pyqtgraph_w_xaxis_as_TIME.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/23-P300_experiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/24_text_on_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/25_crosshair_plot_interaction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/BASIC_suite_combining_pyqtgrap_pyqt5_plus_winBar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/Build_3D_Object_from_3D_matric_pts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/bar_chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/basic_3D_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/colo_button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/data_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/dock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/draw_rectangles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/gl_shader_3D_object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/graphic_layout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/grid_layout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/img_video_from_np.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/live_bar_chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/mon_test_pyqtgraph_multichannels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/plot_costumization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/plot_customization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/polycortex_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/rectangle_scatter_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/scatter_performance_with_many_shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/scatter_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/scatter_plot_widget_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/shader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/test_scrolling_plots_performance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/text_item.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqtgraph_ex/video_spacer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/inherit_from_two_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/mon_test_timeit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/named_tuple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/numpy/avg_between_ranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_tutorial/Acces_parent_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_tutorial/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_tutorial/abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_tutorial/capture_stdout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_tutorial/get_size_of_monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_tutorial/global_variable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_tutorial/inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_tutorial/init_vs_call.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_tutorial/singleton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_tutorial/store_stdout_in_stringIO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seaborn/error bar plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_menu_bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_variable_explorer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_it.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/python_cookbook/pass_no_value_to_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umap/mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_scraping/parsing_bitchute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wx_gui/hello_world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mon_test_pyqtgraph_multichannel_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyqtgraph_ex/mon_test_pyqtgraph_multichannel_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mon_test_pyqtgraph_multichannels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mon_test_pyqtgraph_multithreading.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyqtgraph_ex/mon_test_pyqtgraph_multithreading.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/test_code$rotate_QPushButton.coverage" NAME="rotate_QPushButton Coverage Results" MODIFIED="1545078887767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$QMainWindow_with_tabs.coverage" NAME="QMainWindow_with_tabs Coverage Results" MODIFIED="1548284330397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$ploting_sensors_on_scalp.coverage" NAME="ploting_sensors_on_scalp Coverage Results" MODIFIED="1545322014002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mne" />
+    <SUITE FILE_PATH="coverage/test_code$collapsable_dock_w_tool_section.coverage" NAME="collapsable_dock_w_tool_section Coverage Results" MODIFIED="1545136753121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$stream_data_basic.coverage" NAME="stream_data_basic Coverage Results" MODIFIED="1543119096331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/openbci" />
+    <SUITE FILE_PATH="coverage/test_code$video.coverage" NAME="video Coverage Results" MODIFIED="1543211685398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$colo_button.coverage" NAME="colo_button Coverage Results" MODIFIED="1544065767001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$tab_widget.coverage" NAME="tab_widget Coverage Results" MODIFIED="1545000819241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$draw_rectangles.coverage" NAME="draw_rectangles Coverage Results" MODIFIED="1544189452338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$dock_in_tab.coverage" NAME="dock_in_tab Coverage Results" MODIFIED="1545001744543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$plot_costumization.coverage" NAME="plot_costumization Coverage Results" MODIFIED="1547990851828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$gl_shader_3D_object.coverage" NAME="gl_shader_3D_object Coverage Results" MODIFIED="1544065771543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$plot_customization.coverage" NAME="plot_customization Coverage Results" MODIFIED="1547140944662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$parsing_bitchute.coverage" NAME="parsing_bitchute Coverage Results" MODIFIED="1534117318113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scraping" />
+    <SUITE FILE_PATH="coverage/test_code$create_an_obj_from_dict.coverage" NAME="create_an_obj_from_dict Coverage Results" MODIFIED="1540681733462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$abc.coverage" NAME="abc Coverage Results" MODIFIED="1542748058985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_tutorial" />
+    <SUITE FILE_PATH="coverage/test_code$decimating_scalp_surface.coverage" NAME="decimating_scalp surface Coverage Results" MODIFIED="1544289761462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mne" />
+    <SUITE FILE_PATH="coverage/test_code$BASIC_suite_combining_pyqtgrap_pyqt5_plus_winBar.coverage" NAME="BASIC_suite_combining_pyqtgrap_pyqt5_plus_winBar Coverage Results" MODIFIED="1532981626879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$ScatterPlotItem.coverage" NAME="ScatterPlotItem Coverage Results" MODIFIED="1543453496578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.local/share/virtualenvs/test_code-wMAVO9D_/lib/python3.6/site-packages/pyqtgraph/graphicsItems" />
+    <SUITE FILE_PATH="coverage/test_code$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1541017958766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$vtk_visualization.coverage" NAME="vtk_visualization Coverage Results" MODIFIED="1544314020388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyVtk" />
+    <SUITE FILE_PATH="coverage/test_code$video_into_main_window.coverage" NAME="video_into_main_window Coverage Results" MODIFIED="1544824029390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$bandpass.coverage" NAME="bandpass Coverage Results" MODIFIED="1542960049339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter" />
+    <SUITE FILE_PATH="coverage/test_code$20_Run_pygame_inside_pyqtwin.coverage" NAME="20-Run_pygame_inside_pyqtwin Coverage Results" MODIFIED="1547405365581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygame" />
+    <SUITE FILE_PATH="coverage/test_code$splitter.coverage" NAME="splitter Coverage Results" MODIFIED="1534553185197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$live_bar_chart.coverage" NAME="live_bar_chart Coverage Results" MODIFIED="1537217753686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$fill_between.coverage" NAME="fill_between Coverage Results" MODIFIED="1544633579069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib" />
+    <SUITE FILE_PATH="coverage/test_code$pipeline.coverage" NAME="pipeline Coverage Results" MODIFIED="1537233749322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generator" />
+    <SUITE FILE_PATH="coverage/test_code$basic_dock_widget.coverage" NAME="basic_dock_widget Coverage Results" MODIFIED="1534787540839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$test_variable_explorer.coverage" NAME="test_variable_explorer Coverage Results" MODIFIED="1544134127967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$change_color_at_every_pts_3D.coverage" NAME="change_color_at_every_pts_3D Coverage Results" MODIFIED="1544313991863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3D/open_gl" />
+    <SUITE FILE_PATH="coverage/test_code$progress_bar.coverage" NAME="progress_bar Coverage Results" MODIFIED="1542254943262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$leg_visualization.coverage" NAME="leg_visualization Coverage Results" MODIFIED="1542689638557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyVtk" />
+    <SUITE FILE_PATH="coverage/test_code$data_tree.coverage" NAME="data_tree Coverage Results" MODIFIED="1543452333053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$fmri_3D.coverage" NAME="fmri_3D Coverage Results" MODIFIED="1544315729453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$where.coverage" NAME="where Coverage Results" MODIFIED="1545500794415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_numpy" />
+    <SUITE FILE_PATH="coverage/test_code$scrolling_area.coverage" NAME="scrolling_area Coverage Results" MODIFIED="1536517495651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$singleton.coverage" NAME="singleton Coverage Results" MODIFIED="1542748368180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_tutorial" />
+    <SUITE FILE_PATH="coverage/test_code$mesh_terrain.coverage" NAME="mesh_terrain Coverage Results" MODIFIED="1544313009828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3D/open_gl" />
+    <SUITE FILE_PATH="coverage/test_code$many_plot_3D.coverage" NAME="many_plot_3D Coverage Results" MODIFIED="1544313061556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3D/open_gl" />
+    <SUITE FILE_PATH="coverage/test_code$img_from_np.coverage" NAME="img_from_np Coverage Results" MODIFIED="1544132271183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$tree_view.coverage" NAME="tree_view Coverage Results" MODIFIED="1545327354839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$25_crosshair_plot_interaction.coverage" NAME="25_crosshair_plot_interaction Coverage Results" MODIFIED="1534700861337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$inheritance.coverage" NAME="inheritance Coverage Results" MODIFIED="1542750043181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_tutorial" />
+    <SUITE FILE_PATH="coverage/test_code$heat_map_real_time.coverage" NAME="heat_map_real_time Coverage Results" MODIFIED="1542785865715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$store_stdout_in_stringIO.coverage" NAME="store_stdout_in_stringIO Coverage Results" MODIFIED="1547310709049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_tutorial" />
+    <SUITE FILE_PATH="coverage/test_code$19_pyqtgraph_dockwidgets.coverage" NAME="19_pyqtgraph_dockwidgets Coverage Results" MODIFIED="1532885664219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$live_filtering.coverage" NAME="live_filtering Coverage Results" MODIFIED="1543024978074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filter" />
+    <SUITE FILE_PATH="coverage/test_code$time_it.coverage" NAME="time_it Coverage Results" MODIFIED="1543794621224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$text_item_on_graph.coverage" NAME="text_item_on_graph Coverage Results" MODIFIED="1535224132441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/live_coding" />
+    <SUITE FILE_PATH="coverage/test_code$svm_basic.coverage" NAME="svm_basic Coverage Results" MODIFIED="1535753501630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning/svm" />
+    <SUITE FILE_PATH="coverage/test_code$embeding_vtk_into_pyqt5.coverage" NAME="embeding_vtk_into_pyqt5 Coverage Results" MODIFIED="1547933070368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$shader.coverage" NAME="shader Coverage Results" MODIFIED="1542663745676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$img_video_from_np.coverage" NAME="img_video_from_np Coverage Results" MODIFIED="1544688945334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$23_P300_experiment.coverage" NAME="23-P300_experiment Coverage Results" MODIFIED="1541117102661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$dock.coverage" NAME="dock Coverage Results" MODIFIED="1543216411823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$Pyqt5_dock.coverage" NAME="Pyqt5_dock Coverage Results" MODIFIED="1545050199836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$slider.coverage" NAME="slider Coverage Results" MODIFIED="1547387097601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$mon_test_pyqtgraph_multichannels__1_.coverage" NAME="mon_test_pyqtgraph_multichannels (1) Coverage Results" MODIFIED="1531743823529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$rectangle_scatter_plot.coverage" NAME="rectangle_scatter_plot Coverage Results" MODIFIED="1542658736913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$mon_test_fft.coverage" NAME="mon_test_fft Coverage Results" MODIFIED="1531745844874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$TIMER_do_every_n_Sec.coverage" NAME="TIMER_do_every_n_Sec Coverage Results" MODIFIED="1531837558406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$grid_layout.coverage" NAME="grid_layout Coverage Results" MODIFIED="1535651350023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$group_box_layouts.coverage" NAME="group box layouts Coverage Results" MODIFIED="1542663612992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$pass_no_value_to_func.coverage" NAME="pass_no_value_to_func Coverage Results" MODIFIED="1543514501024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorials/python_cookbook" />
+    <SUITE FILE_PATH="coverage/test_code$24_text_on_graph.coverage" NAME="24_text_on_graph Coverage Results" MODIFIED="1534373354688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$pipe.coverage" NAME="pipe Coverage Results" MODIFIED="1541301179087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading" />
+    <SUITE FILE_PATH="coverage/test_code$mesh_terrai.coverage" NAME="mesh_terrai Coverage Results" MODIFIED="1543005079471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3D/open_gl" />
+    <SUITE FILE_PATH="coverage/test_code$avg_between_ranges.coverage" NAME="avg_between_ranges Coverage Results" MODIFIED="1543868968962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/numpy" />
+    <SUITE FILE_PATH="coverage/test_code$22_connect_qpushbutton.coverage" NAME="22_connect_qpushbutton Coverage Results" MODIFIED="1544315706916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$scatter_performance_with_many_shapes.coverage" NAME="scatter_performance_with_many_shapes Coverage Results" MODIFIED="1542991144937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$checked_menu_bar.coverage" NAME="checked_menu_bar Coverage Results" MODIFIED="1543112472683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$Build_3D_Object_from_3D_matric_pts.coverage" NAME="Build_3D_Object_from_3D_matric_pts Coverage Results" MODIFIED="1544193167789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$text_item_on_scrolling_graph.coverage" NAME="text_item_on_scrolling_graph Coverage Results" MODIFIED="1535224822119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/live_coding" />
+    <SUITE FILE_PATH="coverage/test_code$global_variable.coverage" NAME="global_variable Coverage Results" MODIFIED="1541289384217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3D" />
+    <SUITE FILE_PATH="coverage/test_code$test_pyqtgraph_multireading2.coverage" NAME="test_pyqtgraph_multireading2 Coverage Results" MODIFIED="1532981739733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$error_bar_plot.coverage" NAME="error bar plot Coverage Results" MODIFIED="1535753317364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seaborn" />
+    <SUITE FILE_PATH="coverage/test_code$toolbox2.coverage" NAME="toolbox2 Coverage Results" MODIFIED="1545055853348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$17_combining_QMainWindow_and_QWidget_classes.coverage" NAME="17-combining_QMainWindow_and_QWidget_classes Coverage Results" MODIFIED="1544315853377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$parse_YT_selenium.coverage" NAME="parse_YT_selenium Coverage Results" MODIFIED="1534119923123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../beautifulsoup" />
+    <SUITE FILE_PATH="coverage/test_code$objloader.coverage" NAME="objloader Coverage Results" MODIFIED="1543901767284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3D/open_gl" />
+    <SUITE FILE_PATH="coverage/test_code$handson_machine_learning_book.coverage" NAME="handson_machine_learning_book Coverage Results" MODIFIED="1540864671811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine_learning" />
+    <SUITE FILE_PATH="coverage/test_code$18_tab_widget.coverage" NAME="18_tab_widget Coverage Results" MODIFIED="1544312896191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$numpy_concatenation.coverage" NAME="numpy_concatenation Coverage Results" MODIFIED="1535167276790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$draw_rectangles__1_.coverage" NAME="draw_rectangles (1) Coverage Results" MODIFIED="1542788333576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$basic_main_window.coverage" NAME="basic_main_window Coverage Results" MODIFIED="1548284059365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$scatter_plot.coverage" NAME="scatter_plot Coverage Results" MODIFIED="1543345674088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$qsplitter_splitting_layouts.coverage" NAME="qsplitter_splitting_layouts Coverage Results" MODIFIED="1536201883099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$output_console_in_QTextEdit.coverage" NAME="output_console_in_QTextEdit Coverage Results" MODIFIED="1547300549170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$create_many_splitter_one_after_the_other.coverage" NAME="create_many_splitter_one_after_the_other Coverage Results" MODIFIED="1544222291142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$get_live_input_from_keyboard.coverage" NAME="get_live_input_from_keyboard Coverage Results" MODIFIED="1535060370586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/live_coding" />
+    <SUITE FILE_PATH="coverage/test_code$Q_splitter.coverage" NAME="Q_splitter Coverage Results" MODIFIED="1536200763842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1545083077816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/umap" />
+    <SUITE FILE_PATH="coverage/test_code$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1547214784586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wx_gui" />
+    <SUITE FILE_PATH="coverage/test_code$guitar_hero.coverage" NAME="guitar_hero Coverage Results" MODIFIED="1535148829626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/live_coding" />
+    <SUITE FILE_PATH="coverage/test_code$graphic_layout.coverage" NAME="graphic_layout Coverage Results" MODIFIED="1542663762503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$get_size_of_monitor.coverage" NAME="get_size_of_monitor Coverage Results" MODIFIED="1547407439798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_tutorial" />
+    <SUITE FILE_PATH="coverage/test_code$TEST__1_.coverage" NAME="TEST (1) Coverage Results" MODIFIED="1541362866374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$BASIC_combining_pyqtgraph_and_pyqt5.coverage" NAME="BASIC_combining_pyqtgraph_and_pyqt5 Coverage Results" MODIFIED="1532834582043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$text_item.coverage" NAME="text_item Coverage Results" MODIFIED="1534698238531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$collapsable_section_widget.coverage" NAME="collapsable_section_widget Coverage Results" MODIFIED="1545008413315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$21_Pyqtgraph_w_xaxis_as_TIME.coverage" NAME="21-Pyqtgraph_w_xaxis_as_TIME Coverage Results" MODIFIED="1532988047349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$test_menu_bar.coverage" NAME="test_menu_bar Coverage Results" MODIFIED="1532981978390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$scatter_plot_widget_tree.coverage" NAME="scatter_plot_widget_tree Coverage Results" MODIFIED="1543453499913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$Acces_parent_functions.coverage" NAME="Acces_parent_functions Coverage Results" MODIFIED="1532203320260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$tool_box.coverage" NAME="tool_box Coverage Results" MODIFIED="1544829314410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$QFileDialogbox.coverage" NAME="QFileDialogbox Coverage Results" MODIFIED="1534702584994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$init_vs_call.coverage" NAME="init_vs_call Coverage Results" MODIFIED="1542749917486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_tutorial" />
+    <SUITE FILE_PATH="coverage/test_code$QSlider.coverage" NAME="QSlider Coverage Results" MODIFIED="1547387105588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$3D_scatter_plot.coverage" NAME="3D scatter plot Coverage Results" MODIFIED="1544286335149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3D/open_gl" />
+    <SUITE FILE_PATH="coverage/test_code$video_player.coverage" NAME="video_player Coverage Results" MODIFIED="1547227072136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$snake.coverage" NAME="snake Coverage Results" MODIFIED="1544295881087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/game" />
+    <SUITE FILE_PATH="coverage/test_code$capture_stdout.coverage" NAME="capture_stdout Coverage Results" MODIFIED="1547309927526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_tutorial" />
+    <SUITE FILE_PATH="coverage/test_code$save_and_open_files.coverage" NAME="save_and_open_files Coverage Results" MODIFIED="1535391639259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$test_scrolling_plots_performance.coverage" NAME="test_scrolling_plots_performance Coverage Results" MODIFIED="1543511114800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$slider__1_.coverage" NAME="slider (1) Coverage Results" MODIFIED="1543364056686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$inherit_from_two_class.coverage" NAME="inherit_from_two_class Coverage Results" MODIFIED="1531778730201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_code$bar_chart.coverage" NAME="bar_chart Coverage Results" MODIFIED="1535391633942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$20_Run_pygame_inside_pyqtwin__1_.coverage" NAME="20-Run_pygame_inside_pyqtwin (1) Coverage Results" MODIFIED="1547405455785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_pygame" />
+    <SUITE FILE_PATH="coverage/test_code$15_Basic_scrolling_plot.coverage" NAME="15-Basic_scrolling_plot Coverage Results" MODIFIED="1548284223767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$basic_3D_game.coverage" NAME="basic_3D_game Coverage Results" MODIFIED="1544189548752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqtgraph_ex" />
+    <SUITE FILE_PATH="coverage/test_code$collapsable_dock.coverage" NAME="collapsable_dock Coverage Results" MODIFIED="1545056533742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyqt5_ex" />
+    <SUITE FILE_PATH="coverage/test_code$open_blender_file.coverage" NAME="open_blender_file Coverage Results" MODIFIED="1543341030848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3D/open_gl" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="231737612">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="41" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="15" />
+          <entry key="project.open.time.10" value="5" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="9" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="5" />
+          <entry key="project.open.time.17" value="4" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.20" value="3" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="8" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="90" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="pstat" value="2" />
+          <entry key="py" value="327" />
+          <entry key="tex" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Profiler Session" value="2" />
+          <entry key="Python" value="327" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="2450" />
+          <entry key="dummy" value="147" />
+          <entry key="py" value="93832" />
+          <entry key="tex" value="218" />
+          <entry key="txt" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="LaTeX source file" value="218" />
+          <entry key="PLAIN_TEXT" value="178" />
+          <entry key="Python" value="96282" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="test_code" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modelisation/lin_non_lin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyqt5_ex/basic_main_window.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pyqtgraph_ex/15-Basic_scrolling_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyqt5_ex/tab_widget.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyqt5_ex/tool_box.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_pygame/player.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_pygame/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyqt5_ex/slider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyqt5_ex/output_console_in_QTextEdit2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3247">
+              <caret line="193" selection-start-line="193" selection-end-line="193" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx_gui/hello_world.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pg</find>
-      <find>num_itt</find>
+      <find>sns</find>
+      <find>w1</find>
+      <find>ScatterPlotItem</find>
+      <find>buffering</find>
+      <find>pbar</find>
+      <find>self.</find>
+      <find>n</find>
+      <find>qdarkstyle</find>
+      <find>on_click</find>
+      <find>s2</find>
+      <find>mousePressEvent</find>
+      <find>ev</find>
+      <find>ui</find>
+      <find>paint</find>
+      <find>animation</find>
+      <find>boundingRect</find>
+      <find>curve</find>
+      <find>data</find>
+      <find>nsteps</find>
+      <find>pos3</find>
+      <find>OneMenu</find>
+      <find>objloader</find>
+      <find>MTL</find>
+      <find>gl</find>
+      <find>item</find>
+      <find>Data Fi</find>
+      <find>ptree</find>
+      <find>DataFilter</find>
+      <find>ptr5</find>
+      <find>i</find>
     </findStrings>
+    <replaceStrings>
+      <replace>start_timer</replace>
+      <replace>d2</replace>
+      <replace>crosshair_plot</replace>
+      <replace>all_data_plot</replace>
+      <replace>graph</replace>
+      <replace>mouse_mouved</replace>
+      <replace>curve</replace>
+      <replace>plot</replace>
+      <replace>txt</replace>
+      <replace>x</replace>
+      <replace>w</replace>
+      <replace>s</replace>
+      <replace>data</replace>
+      <replace>c1</replace>
+      <replace>d1</replace>
+      <replace>pos</replace>
+      <replace>itt</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multichannels.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multithreading.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pyqtgraph_ex/mon_test_pyqtgraph_multichannels.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../mon_test_code/allo.py" />
-        <option value="$PROJECT_DIR$/../mon_test_code/test_pyqtgraph_exec_and_multithreading.py" />
-        <option value="$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_exec_and_multithreading.py" />
-        <option value="$PROJECT_DIR$/../mon_test_code/fdsfdfdsfsd.ipynb" />
-        <option value="$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multichannels_class.py" />
-        <option value="$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multithreading.py" />
-        <option value="$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multichannels.py" />
+        <option value="$PROJECT_DIR$/test_variable_explorer.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/17-combining_QMainWindow_and_QWidget_classes.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/create_many_splitter_one_after_the_other.py" />
+        <option value="$PROJECT_DIR$/3D/open_gl/selectable_3d_scatter_plot.py" />
+        <option value="$PROJECT_DIR$/3D/open_gl/mesh_terrain.py" />
+        <option value="$PROJECT_DIR$/mne/decimating_scalp surface.py" />
+        <option value="$PROJECT_DIR$/game/snake.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/18_tab_widget.py" />
+        <option value="$PROJECT_DIR$/heat_map_real_time.py" />
+        <option value="$PROJECT_DIR$/matplotlib/fill_between.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/QMainWindow_with_tabs.py" />
+        <option value="$PROJECT_DIR$/pyqtgraph_ex/img_video_from_np.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/video_into_main_window.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/tool_box.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/toolbox2.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/collapsable_section_widget.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/Pyqt5_dock.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/tab_widget.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/dock_in_tab.py" />
+        <option value="$USER_HOME$/.local/share/virtualenvs/test_code-wMAVO9D_/lib/python3.6/site-packages/pyqtgraph/graphicsItems/ROI.py" />
+        <option value="$USER_HOME$/.local/share/virtualenvs/test_code-wMAVO9D_/lib/python3.6/site-packages/pyqtgraph/__init__.py" />
+        <option value="$USER_HOME$/.local/share/virtualenvs/test_code-wMAVO9D_/lib/python3.6/site-packages/pyqtgraph/imageview/ImageView.py" />
+        <option value="$USER_HOME$/.local/share/virtualenvs/test_code-wMAVO9D_/lib/python3.6/site-packages/pyqtgraph/imageview/ImageViewTemplate_pyside.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/dock_widgets.py" />
+        <option value="$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1570754400/PyQt5/QtWidgets/QDockWidget.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/collapsable_dock.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/__init__.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/rotate_QPushButton.py" />
+        <option value="$PROJECT_DIR$/umap/mnist.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/collapsable_dock_w_tool_section.py" />
+        <option value="$PROJECT_DIR$/mne/ploting_sensors_on_scalp.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/tree_view.py" />
+        <option value="$PROJECT_DIR$/my_numpy/where.py" />
+        <option value="$PROJECT_DIR$/pyqtgraph_ex/video_spacer.py" />
+        <option value="$PROJECT_DIR$/pyqtgraph_ex/plot_customization.py" />
+        <option value="$PROJECT_DIR$/wx_gui/hello_world.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/video_player.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/output_console_in_QTextEdit2.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/output_console_in_QTextEdit.py" />
+        <option value="$PROJECT_DIR$/python_tutorial/capture_stdout.py" />
+        <option value="$PROJECT_DIR$/python_tutorial/store_stdout_in_stringIO.py" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/slider.py" />
+        <option value="$PROJECT_DIR$/pygame/settings.py" />
+        <option value="$PROJECT_DIR$/pygame/player.py" />
+        <option value="$PROJECT_DIR$/pygame/20-Run_pygame_inside_pyqtwin.py" />
+        <option value="$PROJECT_DIR$/my_pygame/20-Run_pygame_inside_pyqtwin.py" />
+        <option value="$PROJECT_DIR$/python_tutorial/get_size_of_monitor.py" />
+        <option value="$USER_HOME$/Downloads/elena.it.tex" />
+        <option value="$PROJECT_DIR$/pyqt5_ex/basic_main_window.py" />
+        <option value="$PROJECT_DIR$/pyqtgraph_ex/plot_costumization.py" />
+        <option value="$PROJECT_DIR$/modelisation/lin_non_lin.py" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="10" />
-    <option name="y" value="24" />
-    <option name="width" value="960" />
-    <option name="height" value="1056" />
+    <option name="y" value="27" />
+    <option name="width" value="950" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -64,17 +618,46 @@
               <item name="test_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="test_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_code" type="462c0819:PsiDirectoryNode" />
+              <item name="pyqt5_ex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_code" type="462c0819:PsiDirectoryNode" />
+              <item name="pyqtgraph_ex" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///media/alexa/1EAC4A6EAC4A408F/Users/alexa/Documents/CODING/2018/mon_test_code/mon_test_pyqtgraph_exec_and_multithreading.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="SearchEverywhereHistoryKey" value="scatter&#9;FILE&#9;file:///home/alex/Documents/CODING/2018/test_code/pyqtgraph_ex/scatter_plot.py&#10;scatt&#9;FILE&#9;file:///home/alex/Documents/CODING/2018/test_code/pyqtgraph_ex/3D scatter plot.py&#10;group&#9;RUN_CONFIGURATION&#9;group box layouts&#10;threading&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/elena.it.tex" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pyqtgraph_ex" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/3D/open_gl" />
+      <recent name="$PROJECT_DIR$/python_learning" />
+      <recent name="$PROJECT_DIR$/pyqtgraph_ex" />
+      <recent name="$PROJECT_DIR$/python_tutorial" />
+      <recent name="$PROJECT_DIR$/pyqt5_ex" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -88,7 +671,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mon_test_pyqtgraph_multichannels_class">
+  <component name="RunManager" selected="Python.QMainWindow_with_tabs">
     <configuration name="test_code" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="test_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,11 +684,26 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
+      <method v="2" />
     </configuration>
-    <configuration name="mon_test_pyqtgraph_exec_and_multithreading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="elena.it" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <compiler-arguments />
+        <main-file>$APPLICATION_HOME_DIR$/bin</main-file>
+        <aux-dir>false</aux-dir>
+        <out-dir>true</out-dir>
+        <output-format>PDF</output-format>
+        <bib-run-config />
+      </texify>
+      <method v="2" />
+    </configuration>
+    <configuration name="15-Basic_scrolling_plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,17 +711,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mon_test_code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqtgraph_ex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_exec_and_multithreading.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqtgraph_ex/15-Basic_scrolling_plot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="mon_test_pyqtgraph_multichannels" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="QMainWindow_with_tabs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,17 +733,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mon_test_code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqt5_ex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multichannels.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt5_ex/QMainWindow_with_tabs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="mon_test_pyqtgraph_multichannels_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="basic_main_window" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,35 +755,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mon_test_code" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multichannels_class.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="mon_test_pyqtgraph_multireading2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mon_test_code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqt5_ex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multireading2.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt5_ex/basic_main_window.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="mon_test_pyqtgraph_multithreading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="embeding_vtk_into_pyqt5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,31 +777,81 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mon_test_code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqt5_ex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multithreading.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt5_ex/embeding_vtk_into_pyqt5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot_costumization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqtgraph_ex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqtgraph_ex/plot_costumization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rotate_QPushButton" type="PythonConfigurationType" factoryName="Python">
+      <module name="test_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqt5_ex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt5_ex/rotate_QPushButton.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="LaTeX.elena.it" />
+      <item itemvalue="Python.rotate_QPushButton" />
       <item itemvalue="Jupyter Notebook.test_code" />
-      <item itemvalue="Python.mon_test_pyqtgraph_multithreading" />
-      <item itemvalue="Python.mon_test_pyqtgraph_multichannels" />
-      <item itemvalue="Python.mon_test_pyqtgraph_exec_and_multithreading" />
-      <item itemvalue="Python.mon_test_pyqtgraph_multireading2" />
-      <item itemvalue="Python.mon_test_pyqtgraph_multichannels_class" />
+      <item itemvalue="Python.basic_main_window" />
+      <item itemvalue="Python.embeding_vtk_into_pyqt5" />
+      <item itemvalue="Python.QMainWindow_with_tabs" />
+      <item itemvalue="Python.plot_costumization" />
+      <item itemvalue="Python.15-Basic_scrolling_plot" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mon_test_pyqtgraph_multichannels_class" />
-        <item itemvalue="Python.mon_test_pyqtgraph_multithreading" />
-        <item itemvalue="Python.mon_test_pyqtgraph_multichannels" />
-        <item itemvalue="Python.mon_test_pyqtgraph_multireading2" />
-        <item itemvalue="Python.mon_test_pyqtgraph_exec_and_multithreading" />
+        <item itemvalue="Python.QMainWindow_with_tabs" />
+        <item itemvalue="Python.15-Basic_scrolling_plot" />
+        <item itemvalue="Python.basic_main_window" />
+        <item itemvalue="Python.plot_costumization" />
+        <item itemvalue="Python.embeding_vtk_into_pyqt5" />
       </list>
     </recent_temporary>
   </component>
@@ -237,191 +879,551 @@
       <configuration name="py.test in test_pyqtgraph_exec_and_multithreading.py" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="24" width="960" height="1056" extended-state="4" />
+    <frame x="0" y="27" width="950" height="1053" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18463181" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.2446264" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25191677" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.18018967" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Structure" order="0" sideWeight="0.3282572" side_tool="true" weight="0.22198506" />
+      <window_info id="Favorites" order="1" sideWeight="0.38896552" side_tool="true" weight="0.1307364" />
+      <window_info content_ui="combo" x="549" y="146" width="245" height="725" id="Project" order="2" sideWeight="0.6717428" visible="true" weight="0.3329646" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.066593885" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.54002136" visible="true" weight="0.25873363" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6445367" weight="0.46179038" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969433" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.44163266" side_tool="true" weight="0.25873363" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32972974" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.5583674" weight="0.29585153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="220" height="856" id="Documentation" order="3" side_tool="true" visible="true" weight="0.10410095" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" sideWeight="0.49733335" weight="0.32924226" />
+      <window_info anchor="right" x="845" y="222" width="723" height="654" id="SciView" order="4" sideWeight="0.69398206" weight="0.3036989" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+      <window_info anchor="right" id="Key Promoter X" order="6" sideWeight="0.4992658" visible="true" weight="0.32932165" />
+      <window_info anchor="right" x="0" y="0" width="190" height="853" id="Documentation" order="7" sideWeight="0.30601794" side_tool="true" visible="true" weight="0.36055276" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20266889" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="0" sideWeight="0.3282572" side_tool="true" weight="0.22198506" />
+      <window_info id="Favorites" order="1" sideWeight="0.38896552" side_tool="true" weight="0.1307364" />
+      <window_info active="true" content_ui="combo" x="549" y="146" width="245" height="725" id="Project" order="2" sideWeight="0.6717428" visible="true" weight="0.28633407" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.066593885" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.54002136" visible="true" weight="0.25873363" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6445367" weight="0.2106987" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969433" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.44163266" side_tool="true" weight="0.25873363" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32972974" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.5583674" weight="0.29585153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32982087" />
-      <window_info anchor="bottom" id="Python Console" order="0" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" sideWeight="0.49733335" weight="0.32924226" />
+      <window_info anchor="right" x="845" y="222" width="723" height="654" id="SciView" order="4" sideWeight="0.69398206" weight="0.3036989" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+      <window_info anchor="right" id="Key Promoter X" order="6" sideWeight="0.4992658" visible="true" weight="0.32932165" />
+      <window_info anchor="right" x="0" y="0" width="190" height="853" id="Documentation" order="7" sideWeight="0.30601794" side_tool="true" visible="true" weight="0.36055276" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqtgraph_ex/mon_test_pyqtgraph_multichannels.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mon_test_fft.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqtgraph_ex/16_BASIC_combining_pyqtgraph_and_pyqt5.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt5_ex/fmri_3D.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/live_coding/guitar_hero.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/live_coding/guitar_hero.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/seaborn/error bar plot.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt5_ex/qsplitter_splitting_layouts.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqtgraph_ex/Build_3D_Object_from_3D_matric_pts.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3D/open_gl/many_plot_3D.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqtgraph_ex/draw_rectangles.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3D/open_gl/mesh_terrain.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_variable_explorer.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mne/decimating_scalp surface.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt5_ex/collapsable_dock.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt5_ex/rotate_QPushButton.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt5_ex/rotate_QPushButton.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mne/ploting_sensors_on_scalp.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqtgraph_ex/plot_customization.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqtgraph_ex/plot_costumization.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyqt5_ex/basic_main_window.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>a = np.array([[1,2,3], [4,5,6], [7,8,9]])
+s4 = pg.ScatterPlotItem(size=10, pen=pg.mkPen(None), brush=pg.mkBrush(255, 255, 255, 20))
+# pos = np.random.normal(size=(2,400*250), scale=1)
+for x, v1 in enumerate(a):
+    for y, v2 in enumerate(v1):
+        print(v2)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>z</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multithreading.py">
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/dock_widgets.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1570754400/PyQt5/QtWidgets/QDockWidget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="429">
+          <caret line="111" column="10" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multichannels.py">
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/toolbox2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="259">
+          <caret line="120" column="19" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/threading.py">
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/collapsable_section_widget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23166">
-          <caret line="1293" selection-start-line="1293" selection-end-line="1293" />
+        <state relative-caret-position="641">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multithreading.py">
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/collapsable_dock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="425">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multichannels.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1570754400/PyQt5/QtWidgets/QStyleOptionButton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="119">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/threading.py">
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/DONT_USE_openBCI_eeg_gui-e2l44_Jj/lib/python3.6/site-packages/sklearn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/DONT_USE_openBCI_eeg_gui-e2l44_Jj/lib/python3.6/site-packages/umap/umap_.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23274">
-          <caret line="1293" selection-start-line="1293" selection-end-line="1293" />
+        <state relative-caret-position="-894">
+          <caret line="1210" column="8" selection-start-line="1210" selection-start-column="8" selection-end-line="1210" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multithreading.py">
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/DONT_USE_openBCI_eeg_gui-e2l44_Jj/lib/python3.6/site-packages/umap/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/DONT_USE_openBCI_eeg_gui-e2l44_Jj/lib/python3.6/site-packages/scipy/io/matlab/mio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="148">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multichannels.py">
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/DONT_USE_openBCI_eeg_gui-e2l44_Jj/lib/python3.6/site-packages/sklearn/datasets/mldata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="148">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/threading.py">
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/DONT_USE_openBCI_eeg_gui-e2l44_Jj/lib/python3.6/site-packages/scipy/io/matlab/mio5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23274">
-          <caret line="1293" selection-start-line="1293" selection-end-line="1293" />
+        <state relative-caret-position="61">
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multithreading.py">
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/DONT_USE_openBCI_eeg_gui-e2l44_Jj/lib/python3.6/site-packages/sklearn/utils/deprecation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+        <state relative-caret-position="99">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multireading2.py" />
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_exec_and_multithreading.py" />
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multichannels.py">
+    <entry file="file://$PROJECT_DIR$/umap/mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="277">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/threading.py">
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/DONT_USE_openBCI_eeg_gui-e2l44_Jj/lib/python3.6/site-packages/pyqtgraph/widgets/LayoutWidget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23166">
-          <caret line="1293" selection-start-line="1293" selection-end-line="1293" />
+        <state relative-caret-position="203">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multichannels_class.py" />
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multithreading.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1907272050/PyQt5/QtWidgets/QWidget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+        <state relative-caret-position="203">
+          <caret line="547" column="8" selection-start-line="547" selection-start-column="8" selection-end-line="547" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multireading2.py" />
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_exec_and_multithreading.py" />
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multichannels.py">
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/DONT_USE_openBCI_eeg_gui-e2l44_Jj/lib/python3.6/site-packages/sklearn/datasets/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqtgraph_ex/video_spacer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/threading.py">
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/rotate_QPushButton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23166">
-          <caret line="1293" selection-start-line="1293" selection-end-line="1293" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#23#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multichannels_class.py" />
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/allo.py" />
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multireading2.py" />
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_exec_and_multithreading.py" />
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/fdsfdfdsfsd.ipynb" />
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multichannels_class.py" />
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multithreading.py">
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/collapsable_dock_w_tool_section.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+        <state relative-caret-position="238">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mon_test_code/mon_test_pyqtgraph_multichannels.py">
+    <entry file="file://$PROJECT_DIR$/mne/ploting_sensors_on_scalp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="3" lean-forward="true" selection-end-line="91" />
+        <state relative-caret-position="136">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/threading.py">
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/tree_view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1437">
-          <caret line="1253" column="26" lean-forward="true" selection-start-line="1253" selection-start-column="26" selection-end-line="1253" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_numpy/where.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqtgraph_ex/plot_customization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/DONT_USE_openBCI_eeg_gui-e2l44_Jj/lib/python3.6/site-packages/mne/viz/_3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqtgraph_ex/video.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/video_player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/output_console_in_QTextEdit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_tutorial/capture_stdout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/elena.it.tex" />
+    <entry file="file://$PROJECT_DIR$/python_tutorial/store_stdout_in_stringIO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/QSlider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_pygame/20-Run_pygame_inside_pyqtwin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_tutorial/get_size_of_monitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/embeding_vtk_into_pyqt5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/QMainWindow_with_tabs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqtgraph_ex/plot_costumization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Hackatown/tabs/map_tab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/free_cad/test1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/test_code-wMAVO9D_/lib/python3.6/site-packages/pyqtgraph/graphicsItems/AxisItem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15827">
+          <caret line="939" column="24" selection-start-line="939" selection-start-column="24" selection-end-line="939" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/tab_widget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/tool_box.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_pygame/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_pygame/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/slider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/output_console_in_QTextEdit2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3247">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_gui/hello_world.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelisation/lin_non_lin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt5_ex/basic_main_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqtgraph_ex/15-Basic_scrolling_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
