@@ -9,7 +9,7 @@ class MainWin(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        self.table_widget = MyTableWidget(self)
+        self.table_widget = MyTableWidget()
         self.setCentralWidget(self.table_widget)
         self.show()
 
