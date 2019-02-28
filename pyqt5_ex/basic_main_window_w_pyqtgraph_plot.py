@@ -12,28 +12,33 @@ class MainWin(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        self.table_widget = PlotWidget()
-        self.setCentralWidget(self.table_widget)
+        self.plot_widget = PlotWidget()
+        self.setCentralWidget(self.plot_widget)
         self.show()
 
 
 class PlotWidget(QWidget):
     def __init__(self):
         super().__init__()
-        self.layout = QVBoxLayout(self)
-        # b = QPushButton('button')
-        # self.layout.addWidget(b)
+        self.layout = QHBoxLayout(self)
+
         q = deque(np.random.random(100), maxlen=100)
+        q2 = deque(np.ones(100), maxlen=100)
+
+
         p = pg.plot(q)
+        c = p.plot(q2)
+        b = QPushButton('allo')
+        self.layout.addWidget(b)
         # p_w = pg.PlotWidget()
-        # self.curve = p_w.plot(q)
-        # self.curve.setData(q)
+        # self.curve = p_w.plot(q2)
+        # c = self.curve.setData(q2)
+
         self.layout.addWidget(p)
-        # self.l.addWidget(self.plot)
         self.setLayout(self.layout)
 
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    main_window = MainWin()
+    m = MainWin()
     sys.exit(app.exec_())
