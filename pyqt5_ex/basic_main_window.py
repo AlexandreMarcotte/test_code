@@ -15,8 +15,8 @@ class MainWin(QMainWindow):
 
 
 class MyTableWidget(QWidget):
-    def __init__(self, parent):
-        super(QWidget, self).__init__(parent)
+    def __init__(self):
+        super().__init__()
         self.layout = QVBoxLayout(self)
         b = QPushButton('button')
         self.layout.addWidget(b)
