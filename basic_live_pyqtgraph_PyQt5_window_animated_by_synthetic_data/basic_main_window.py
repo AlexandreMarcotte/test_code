@@ -2,10 +2,9 @@ from PyQt5.QtWidgets import *
 import pyqtgraph as pg
 from collections import deque
 import numpy as np
-import sys
 
 
-class MainWin(QMainWindow):
+class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.initUI()
@@ -20,13 +19,14 @@ class PlotWidget(QWidget):
     def __init__(self):
         super().__init__()
         layout = QGridLayout(self)
-        q = deque(np.random.random(100), maxlen=100)
+        self.q = deque(np.zeros(1250), maxlen=1250)
         plot = pg.PlotWidget()
         layout.addWidget(plot)
-        plot.plot(q, pen='o')
+        self.curve = plot.plot(self.q)
+
+    def update(self):
+        self.curve.setData(self.q)
 
 
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    m = MainWin()
-    sys.exit(app.exec_())
+
+
