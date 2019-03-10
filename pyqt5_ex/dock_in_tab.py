@@ -1,6 +1,7 @@
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import Qt
+from pyqtgraph.dockarea import DockArea
 
 
 class App(QMainWindow):
@@ -26,7 +27,7 @@ class MyTableWidget(QWidget):
         self.tab1 = Tab()
         self.tab2 = Tab(num_tabs=6)
         # Add tabs
-        self.tabs.addTab(self.tab1, "Tab 1")
+        self.tabs.addTab(self.tab1, "Ta4 1")
         self.tabs.addTab(self.tab2, "Tab 2")
         # Add tabs to widget
         self.layout.addWidget(self.tabs)
@@ -41,13 +42,15 @@ class Tab(QWidget):
         self.initUI()
 
     def initUI(self):
-        layout = QGridLayout(self)
+        self.layout = QGridLayout(self)
+        self.dock_area = DockArea()
+        self.layout.addWidget(self.dock_area)
         self.add_docks()
 
     def add_docks(self):
         self.d1 = QDockWidget('d1')
         self.d2 = QDockWidget('d2')
-        self.layout.addDock(self.d1)
+        self.dock_area.addDock(self.d1.dock)
 
 
 

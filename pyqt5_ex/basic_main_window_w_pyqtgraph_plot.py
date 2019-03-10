@@ -23,7 +23,7 @@ class PlotWidget(QWidget):
         q = deque(np.random.random(100), maxlen=100)
         plot = pg.PlotWidget()
         layout.addWidget(plot)
-        plot.plot(q, pen='o')
+        plot.plot(q, pen='w')
 
 
 if __name__ == '__main__':
