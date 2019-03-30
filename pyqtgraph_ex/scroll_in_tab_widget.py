@@ -37,7 +37,7 @@ class MyTabWidget(QWidget):
 class GameTab(QTabWidget):
     def __init__(self):
         super().__init__()
-        self.basic_scrolls = []
+        # self.basic_scrolls = []
         self.init_ui()
 
     def init_ui(self):
@@ -47,12 +47,10 @@ class GameTab(QTabWidget):
 
     def add_sub_layout(self, pos):
         layout = QGridLayout()
-
         # Add a plot
-        basic_scroll = BasicScroll()
-        layout.addWidget(basic_scroll.plot)
-        self.basic_scrolls.append(basic_scroll)
-
+        self.basic_scroll = BasicScroll()
+        layout.addWidget(self.basic_scroll.plot)
+        # self.basic_scrolls.append(basic_scroll)
         gr = QGroupBox(f'Player {pos + 1}')
         gr.setLayout(layout)
         self.parent_layout.addWidget(gr, 0, pos)

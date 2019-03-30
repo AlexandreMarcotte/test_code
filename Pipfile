@@ -16,6 +16,7 @@ mne = "*"
 mayavi = "*"
 flask = "*"
 plotly = "*"
+psutil = "*"
 
 [dev-packages]
 

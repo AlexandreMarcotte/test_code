@@ -1,6 +1,7 @@
 from datetime import datetime
 
 date = datetime(2018, 1, 10)
+print('NOW', datetime.now())
 
 timestamp = datetime.timestamp(date)
 print("timestamp =", timestamp)

@@ -47,9 +47,10 @@ pw = pg.PlotWidget(
         title='PlotItem')
 
 
-dates = [dt(2018, 1, 5), dt(2018, 3, 6), dt(2018, 2, 7), dt(2018, 2, 8)]  # Date is given by the number of second after 1970
+dates = [dt(2018, 1, 5), dt(2018, 3, 6)]  # Date is given by the number of second after 1970
+print(dates)
 dates = [datetime.timestamp(d) for d in dates]
-pw.plot(x=dates, y=[1, 6, 2, 4], symbol='o')
+pw.plot(x=dates, y=[1, 6], symbol='o', pen='g', label='data')
 pw.show()
 
 if __name__ == '__main__':

@@ -12,7 +12,7 @@ opts = {
 
 #%%
 ydl = youtube_dl.YoutubeDL(opts)
-link = 'https://www.youtube.com/watch?v=1gkb4LOY5Ng'
+link = 'https://www.youtube.com/watch?v=Bg_tJvCA8zw&t=346s'
 
 with ydl:
     result = ydl.extract_info(url=link, download=True)
