@@ -17,6 +17,7 @@ mayavi = "*"
 flask = "*"
 plotly = "*"
 psutil = "*"
+control = "*"
 
 [dev-packages]
 
