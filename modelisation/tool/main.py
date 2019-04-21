@@ -1,5 +1,6 @@
 import sys
 from PyQt5.QtCore import *
+from PyQt5 import QtCore
 from PyQt5.QtWidgets import *
 import pyqtgraph as pg
 import numpy as np
@@ -11,6 +12,7 @@ class dockdemo(QMainWindow):
     def __init__(self, parent=None):
         super(dockdemo, self).__init__(parent)
         self.setWindowTitle('Modelisation Tool')
+        # self.setWindowFlag(QtCore.Qt.WindowCloseButtonHint, False)
         self.init_UI()
 
     def init_UI(self):
@@ -23,7 +25,7 @@ class dockdemo(QMainWindow):
         file.addAction("New")
 
     def create_dock(self):
-        d = QDockWidget('graph analysis')
+        d = QDockWidget()
         self.addDockWidget(Qt.BottomDockWidgetArea, d)
         self.plot_widget = PlotWidget()
         d.setWidget(self.plot_widget)

@@ -18,6 +18,7 @@ flask = "*"
 plotly = "*"
 psutil = "*"
 control = "*"
+fpdf = "*"
 
 [dev-packages]
 

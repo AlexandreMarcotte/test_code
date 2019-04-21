@@ -7,10 +7,13 @@
 # sudo -E crontab -e
 import os
 import logging
+import subprocess
+
 
 cmd = 'sudo ifconfig wlp3s0 down'
 os.system(cmd)
-
+# New way to do it
+# subprocess.call([cmd])
 
 # logging
 # LOG = "/tmp/ccd.log"
