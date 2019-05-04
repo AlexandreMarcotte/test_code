@@ -19,6 +19,12 @@ plotly = "*"
 psutil = "*"
 control = "*"
 fpdf = "*"
+youtube-dl = "==2017.7.9"
+ipyleaflet = "*"
+jupyter = "*"
+leaflet = "*"
+folium = "*"
+geopy = "*"
 
 [dev-packages]
 

@@ -48,7 +48,7 @@ def update(data):
 
 timer = QtCore.QTimer()
 timer.timeout.connect(partial(update, data))
-timer.start(100)
+timer.start(0)
 
 if __name__ == '__main__':
     QtGui.QApplication.instance().exec_()

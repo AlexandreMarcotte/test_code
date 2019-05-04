@@ -12,9 +12,12 @@ opts = {
 
 #%%
 ydl = youtube_dl.YoutubeDL(opts)
-link = 'https://www.youtube.com/watch?v=YJV732hR0gU'
+link = 'https://www.youtube.com/watch?v=d6xFNoB7Q1k'
 
 with ydl:
     result = ydl.extract_info(url=link, download=True)
-    print(result['view_count'])
+    # ydl.download([link])
+    # video = ydl.download([link])
+    # video = ydl.
+    # print(result['view_count'])
 

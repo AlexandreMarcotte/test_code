@@ -13,8 +13,8 @@ class dockdemo(QMainWindow):
     def __init__(self, parent=None):
         super(dockdemo, self).__init__(parent)
         self.setWindowTitle('Todo list')
-        self.dock_area = DockArea()
-        self.setCentralWidget(self.dock_area)
+        # self.dock_area = DockArea()
+        # self.setCentralWidget(self.dock_area)
         self.create_menu_bar()
         for i in range(5):
             self.create_dock(i)
@@ -27,12 +27,12 @@ class dockdemo(QMainWindow):
     def create_dock(self, i):
         # Pyqt5
         dock = QDockWidget('dock')
-        dock.setWidget(QLineEdit(f'this is a new task {i}'))
+        dock.setWidget(QTextEdit(f'this is a new task {i}'))
         self.addDockWidget(Qt.LeftDockWidgetArea, dock)
         # Pyqtgraph
-        dock = Dock('Dock',)
-        dock.addWidget(QLineEdit(f'this is some text'))
-        self.dock_area.addDock(dock, 'bottom')
+        # dock = Dock('Dock',)
+        # dock.addWidget(QLineEdit(f'this is some text'))
+        # self.dock_area.addDock(dock, 'bottom')
 
 
 def main():
