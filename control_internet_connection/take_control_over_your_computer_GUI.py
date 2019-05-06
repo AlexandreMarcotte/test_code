@@ -1,13 +1,12 @@
 from PyQt5 import QtGui, QtCore
 from PyQt5.QtWidgets import (
-        QMainWindow, QApplication, QPushButton, QWidget, QAction, QTabWidget,
-        QVBoxLayout, QGridLayout)
-import PyQt5
+        QMainWindow, QPushButton, QWidget, QTabWidget, QVBoxLayout,
+        QGridLayout)
 import pyqtgraph as pg
-import numpy as np
 import sys
 import datetime as dt
 import os
+
 
 class App(QMainWindow):
 
@@ -38,7 +37,7 @@ class TabWidget(QTabWidget):
 
 class TabInternetControl(QWidget):
     def __init__(self):
-        self.ACTIVATE_N_MINUTES = 20
+        self.ACTIVATE_N_MINUTES = 15
         super().__init__()
 
         self.init_ui()
@@ -62,7 +61,8 @@ class TabInternetControl(QWidget):
         self.layout.addWidget(self.save_and_activate_btn)
 
     def add_interval_of_activation_time_to_file(self):
-        curr_path = os.path.dirname(__file__)
+        # curr_path = os.path.dirname(__file__)
+        curr_path = "/home/alex/Documents/improve_myself/internet_usage/"
         print('saving interval into file')
         start = dt.datetime.now()
         stop = start + dt.timedelta(minutes=self.ACTIVATE_N_MINUTES)
@@ -75,6 +75,10 @@ class TabInternetControl(QWidget):
                          f"{start}\n")
         # restart internet
         os.system("rfkill unblock 1")
+        # Set message telling that the activation was done properly
+        self.activation_message_label = QtGui.QLabel("Activation completed")
+        self.activation_message_label.setAlignment(QtCore.Qt.AlignCenter)
+        self.layout.addWidget(self.activation_message_label)
 
 
 class TabWebsiteControl(QWidget):

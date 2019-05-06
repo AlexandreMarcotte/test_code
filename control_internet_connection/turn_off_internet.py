@@ -10,16 +10,17 @@ def time_in_range(start, end, x):
     else:
         return start <= x or x <= end
 
-def str_to_datetime(str_time):
+def str_to_datetime(time):
     """Convert a string to a datetime based on the format H:M"""
-    return datetime.datetime.strptime(str_time, '%H:%M').time()
+    return datetime.datetime.strptime(time, '%H:%M').time()
 
 
 def read_interval_activation():
     """Read the last time interval in the txt file
        it keeps the two first values which are the start and the stop
        time in a string format"""
-    curr_path = os.path.dirname(__file__)
+    # curr_path = os.path.dirname(__file__)
+    curr_path = "/home/alex/Documents/improve_myself/internet_usage/"
     file_path = os.path.join(curr_path, "activation_time_list.txt")
     with open(file_path, 'r') as f:
         try:
@@ -29,6 +30,7 @@ def read_interval_activation():
 
 
 def read_activation_time():
+    """Extract the string value of the start and stop intervall"""
     interval = read_interval_activation()
     start = str_to_datetime(interval[0])
     stop = str_to_datetime(interval[1])
@@ -36,6 +38,8 @@ def read_activation_time():
 
 
 def activate_or_deactivate_internet():
+    """Activate the internet if the current time is inside the interval
+       sent from the GUI is """
     current = datetime.datetime.now().time()
     # start = datetime.time(8, 34, 0)
     # stop = datetime.time(10, 40, 0)
