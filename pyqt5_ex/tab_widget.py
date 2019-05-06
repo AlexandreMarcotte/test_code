@@ -4,6 +4,7 @@ from PyQt5.QtWidgets import *
 from collections import deque
 import numpy as np
 
+
 class App(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -13,47 +14,43 @@ class App(QMainWindow):
         self.show()
 
 
-class MyTabWidget(QWidget):
+class MyTabWidget(QTabWidget):
     def __init__(self, parent):
-        super(QWidget, self).__init__(parent)
+        super().__init__(parent)
         self.layout = QVBoxLayout(self)
-        # Initialize tab screen
-        self.tabs = QTabWidget()
 
-        self.tab1 = Tab()
-        self.tab2 = Tab()
+        self.tab1 = Tab(1)
+        self.tab2 = Tab(2)
         # Add tabs
-        self.tabs.addTab(self.tab1, "Tab 1")
-        self.tabs.addTab(self.tab2, "Tab 2")
-        # Add tabs to widget
-        self.layout.addWidget(self.tabs)
-        self.setLayout(self.layout)
+        self.addTab(self.tab1, "Tab 1")
+        self.addTab(self.tab2, "Tab 2")
 
 
-class Tab(QTabWidget):
-    def __init__(self):
+class Tab(QWidget):
+    def __init__(self, number=1):
         super().__init__()
+        self.number = number
 
         self.init_ui()
 
     def init_ui(self):
         layout = QGridLayout(self)
-        self.add_sub_layout(layout, 0)
+        self.add_sub_layout(layout)
 
-    def add_sub_layout(self, parent_layout, pos):
+    def add_sub_layout(self, parent_layout):
         layout = QGridLayout()
 
-        b = QPushButton(f'button {pos}')
+        b = QPushButton(f'button {self.number}')
         layout.addWidget(b)
         # Add a plot
-        self.q = deque(np.zeros(10), maxlen=10)
+        self.q = deque(np.random.random(10), maxlen=10)
         plot = pg.PlotWidget()
         layout.addWidget(plot)
-        # self.curve = plot.plot(self.q)
+        self.curve = plot.plot(self.q)
 
-        gr = QGroupBox(f'ch {pos}')
+        gr = QGroupBox(f'ch {self.number}')
         gr.setLayout(layout)
-        parent_layout.addWidget(gr, pos, 0)
+        parent_layout.addWidget(gr, self.number, 0)
         return layout
 
 

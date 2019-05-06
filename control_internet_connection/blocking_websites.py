@@ -10,18 +10,19 @@ hosts_path = "/etc/hosts"
 redirect = "127.0.0.1"
 
 # websites That you want to block
-website_list =["http://www.cuisinedopamine.com/"]
+website_list =["http://www.cuisinedopamine.com/", "cuisinedopamine.com"]
 # i = 0
 # while True:
 def activate_block():
     # print(i)
     # i += 1
     # time of your work
-    if dt(dt.now().year, dt.now().month, dt.now().day,7) < dt.now() \
-            < dt(dt.now().year, dt.now().month, dt.now().day,16):
+    if dt(dt.now().year, dt.now().month, dt.now().day, 7) < dt.now() \
+            < dt(dt.now().year, dt.now().month, dt.now().day, 16):
         print("Working hours...")
         with open(hosts_path, 'r+') as file:
             content = file.read()
+            print(content)
             for website in website_list:
                 if website in content:
                     pass
@@ -39,7 +40,6 @@ def activate_block():
                     # removing hostnmes from host file
             file.truncate()
 
-        print("Fun hours...")
         time.sleep(5)
 
 

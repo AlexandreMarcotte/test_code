@@ -7,7 +7,7 @@ import numpy as np
 import sys
 
 
-class ScrollingPlot(object):
+class ScrollingPlot:
     def __init__(self, plot_obj):
         self.data1 = np.random.normal(size=300)
         self.curve1 = plot_obj.plot(self.data1)
@@ -35,27 +35,22 @@ class App(QMainWindow):
 
         self.show()
 
-class SimpleGraph(QWidget):
+class SimpleGraph(QTabWidget):
     def __init__(self):
         super(SimpleGraph, self).__init__()
         self.layout = QVBoxLayout(self)
 
         # Initialize tab screen
-        self.tabs = QTabWidget()
         self.tab1 = QWidget()
         self.tab2 = QWidget()
 
         # Add tabs
-        self.tabs.addTab(self.tab1, "Tab 1")
-        self.tabs.addTab(self.tab2, "Tab 2")
+        self.addTab(self.tab1, "Tab 1")
+        self.addTab(self.tab2, "Tab 2")
 
         # Compose tabs
         self.create_tab1()
         self.create_tab2()
-
-        # Add tabs to widget
-        self.layout.addWidget(self.tabs)
-        self.setLayout(self.layout)
 
     def create_tab1(self):
         # Create first tab with a button
